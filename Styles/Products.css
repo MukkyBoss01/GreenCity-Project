@@ -1,0 +1,39 @@
+/* body{
+    width: 100%;
+    height: 100%;
+} */
+header{
+
+}
+.facebook{
+    width: 50px;
+}
+#main{
+    margin-top: 10rem;
+}
+h1{
+    text-align: center;
+}
+p,h1{
+    font-family: sans-serif;
+}
+.solar,.roofing{
+    display: flex;
+    flex-direction: row;
+}
+.battery {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.roofing-pic,.battery-pic,.solar-pic {
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+}
+.solar-text,.roofing-text{
+    margin-left: 15rem;
+}
+
+.battery-text {
+    margin-right: 15rem;
+}

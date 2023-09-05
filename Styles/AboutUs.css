@@ -1,0 +1,151 @@
+/* body{ */
+    /* width: 100%; */
+/* } */
+#main{
+    margin-top: 3rem;
+}
+h1{
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+.vision-container{
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vision-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /* border-width: 10rem; */
+    border: 1px solid rgb(101, 150, 29);
+}
+.mission-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.mission-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(101, 150, 29);
+    width: 220px;
+    margin-left: 5px;
+}
+.promise-header{
+    text-align: center;
+}
+.promise-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.truth-tooltip,.service-tooltip,.learning-tooltip,.sustainable-tooltip{
+    font-family: sans-serif;
+    border: 1px solid;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: -50;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+}
+.truth-container,.service-container,.learning-container,.sustainable-container{
+    border: 1px solid;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.truth-main,.service-main,.learning-main,.sustainable-main{
+    position: relative;
+    /* width: 100%;
+    height: 100%; */
+}
+.team-header{
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+.ceo-pic,.tobi-pic,.edith-pic{
+    width: 250px;
+    height: 23rem;
+    object-fit: cover;
+}
+.management{
+    font-family: sans-serif;
+    font-size:large;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.service-tooltip{
+    position: absolute;
+    background-color: rgb(224, 224, 46);
+    color: white;
+    top: 1;
+    left: 1;
+    bottom: -1;
+    right: 0;
+}
+.service-container{
+    border-color:rgb(224, 224, 46) ;
+}
+.sustainable-container{
+    border-color: rgb(108, 230, 60);
+}
+.sustainable-tooltip{
+    background-color: rgb(108, 230, 60);
+    color: white;
+    top: 1;
+     left: 1;
+    bottom: -1;
+    right: 0;
+}
+.learning-container{
+    border-color: rgb(71, 225, 166);
+}
+.learning-tooltip{
+    background-color: rgb(71, 225, 166);
+    color: white;
+    top: 1;
+    left: 1;
+    bottom: -1;
+    right: 0;
+}
+.truth-container{
+    border-color: rgb(23, 161, 196);
+}
+.truth-tooltip{
+    background-color:rgb(23, 161, 196);
+    color: white;
+    top: 1;
+    left: 1;
+    bottom: -1;
+    right: 0;
+}

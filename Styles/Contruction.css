@@ -1,0 +1,40 @@
+#main{
+    margin-top: 10rem;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-family: sans-serif;
+}
+.text{
+    line-height: 50px;
+    font-size: x-large;
+        text-align: center;
+        font-family: sans-serif;
+}
+.construction-pic,.renovation-pic,.architectural-pic,.road-pic{
+    width: 35rem;
+    height: 30rem;
+    object-fit: cover;
+}
+.construction,.architecture{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+}
+.construction-text,.architecture-text{
+    margin-left: 10rem;
+    text-align: center;
+    /* font-family: sans-serif; */
+}
+.renovation,.road{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* .renovation-pic{
+
+} */
+.renovation-text,.road-text{
+    margin-right: 10rem;
+}

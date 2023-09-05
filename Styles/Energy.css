@@ -1,0 +1,36 @@
+body{
+    /* width: 100%; */
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+#main{
+    margin-top: 9rem;
+}
+p{
+    font-family: sans-serif;
+   font-size: large;
+}
+.solar{
+    display: flex;
+    flex-direction: row;
+}
+.solar-pic,.battery-pic,.installation-pic{
+    width: 35rem;
+    height: 30rem;
+    object-fit: cover;
+}
+.battery{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.solar-text{
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+.battery-text{
+    margin-top: 5rem;
+    margin-right: 15rem;
+}
